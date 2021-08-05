@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.nom {text-align: center}
+.nomi {width: 100px; height: 100px}
+.maili {width: 100px; height: 100px}
+.telephonei {width: 100px; height: 100px}
+.adressei {width: 100px; height: 100px}
+.datedenaissancei {width: 100px; height: 100px}
+.espagnol1 {width: 100px; height: 100px}
+.anglais1 {width: 100px; height: 100px}
+.entete {display: flex; flex-direction : column; text-align: center; background: linear-gradient(to bottom right, blue, white)  ; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; font-weight: 600; font-family: "Lato" ; font-size: 48px}
+.formation1 {display: flex; flex-direction: column}
+.formation2 {display: flex; flex-direction: column; text-align: center;   font-family: 'Lato'; font-style: normal;font-weight: 300; background-color: #EACE52; margin-right: 40px; margin-left: 40px}
