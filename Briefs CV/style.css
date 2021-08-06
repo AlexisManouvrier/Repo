@@ -1,12 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+#bloc_page {width: 720px ; margin : auto}
+@media all and (min-device-width: 501px){
+
+}
+
+/* responsive mobile user ci dessous */
+
+@media all and (max-device-width: 500px){
 .nom {text-align: center}
-.nomi {width: 100px; height: 100px}
-.maili {width: 100px; height: 100px}
-.telephonei {width: 100px; height: 100px}
-.adressei {width: 100px; height: 100px}
-.datedenaissancei {width: 100px; height: 100px}
-.espagnol1 {width: 100px; height: 100px}
-.anglais1 {width: 100px; height: 100px}
-.entete {display: flex; flex-direction : column; text-align: center; background: linear-gradient(to bottom right, blue, white)  ; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; font-weight: 600; font-family: "Lato" ; font-size: 48px}
-.formation1 {display: flex; flex-direction: column}
-.formation2 {display: flex; flex-direction: column; text-align: center;   font-family: 'Lato'; font-style: normal;font-weight: 300; background-color: #EACE52; margin-right: 40px; margin-left: 40px}
+.moi {width : 600px; height : 600px; float : center; margin: auto}
+.nomi {width: 64px; height: 64px; vertical-align:50px; margin:auto}
+.maili {width: 64px; height: 64px; vertical-align: 60px; margin:auto}
+.telephonei {width: 64px; height: 64px; vertical-align : 70px; margin:auto}
+.adressei {width: 64px; height: 64px; vertical-align : 80px; margin:auto}
+.datedenaissancei {width: 64px; height: 64px; vertical-align : 90px; margin:auto}
+
+.entete {background-image: url("fond.jpg") ; background-size : cover; display: flex; flex-direction : column; text-align: center;  margin: auto; font-weight: bold; font-family: "Lato" ; font-size: 36px}
+
+
+.formation1 {background-image: url("diplomesfond.jpg"); background-size: cover;display: flex; flex-direction: column; text-align: center;   font-family: 'Lato'; font-style: normal;font-weight: bold; margin: auto; font-size: 36px; width: 100%; height: 800px}
+.formation2 {background-image: url("diplomesfond2.jpg"); background-size: cover;display: flex; flex-direction: column; text-align: center;   font-family: 'Lato'; font-style: normal;font-weight: bold; margin: auto; font-size: 36px; width: 100%; height: 800px}
+.diplome1 {width: 64px; vertical-align: 50px; float: left; margin: auto}
+.diplome2 {width: 64px; vertical-align: 50px; float: right; margin: auto}
+
+
+/* Gros bloc des expériences, à ne pas toucher */ 
+
+.experiences1 {width: 100%; height: 550px; font-family: "Lato"; margin: auto; font-style: normal; font-weight: bold; font-size: 36px; display: flex; flex-direction: column; text-align: center; background-color: #29a3a3 ; background-size: cover; color:  #e6e6e6}
+.date1 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size: cover; margin: auto; color: #F5C01B}
+.titre1 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+.entreprise1 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+
+.experiences2 {width: 100%; height: 550px; font-family: "Lato"; margin: auto; font-style: normal; font-weight: bold; font-size: 36px; display: flex; flex-direction: column; text-align: center; background-color: #29a3a3 ; background-size: cover; color:  #e6e6e6}
+.date2 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3  ; background-size: cover; margin: auto; color: #F5C01B}
+.titre2 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+.entreprise2 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+
+.experiences3 {width: 100%; height: 550px; font-family: "Lato"; margin: auto; font-style: normal; font-weight: bold; font-size: 36px; display: flex; flex-direction: column; text-align: center; background-color: #29a3a3 ; background-size: cover; color:  #e6e6e6}
+.date3 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3  ; background-size: cover; margin: auto; color: #F5C01B}
+.titre3 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+.entreprise3 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+
+.experiences4 {width: 100%; height: 550px; font-family: "Lato"; margin: auto; font-style: normal; font-weight: bold; font-size: 36px; display: flex; flex-direction: column; text-align: center; background-color: #29a3a3 ; background-size: cover; color:  #e6e6e6}
+.date4 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3  ; background-size: cover; margin: auto; color: #F5C01B}
+.titre4 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+.entreprise4 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+
+.experiences5 {width: 100%; height: 550px; font-family: "Lato"; margin: auto; font-style: normal; font-weight: bold; font-size: 36px; display: flex; flex-direction: column; text-align: center; background-color: #29a3a3 ; background-size: cover; color:  #e6e6e6}
+.date5 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3  ; background-size: cover; margin: auto; color: #F5C01B}
+.titre5 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+.entreprise5 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+
+.experiences6 {width: 100%; height: 550px; font-family: "Lato"; margin: auto; font-style: normal; font-weight: bold; font-size: 36px; display: flex; flex-direction: column; text-align: center; background-color: #29a3a3 ; background-size: cover; color:  #e6e6e6}
+.date6 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3  ; background-size: cover; margin: auto; color: #F5C01B}
+.titre6 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+.entreprise6 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; background-color: #29a3a3 ; background-size : cover; margin: auto; color: #F5C01B}
+
+.langue1 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; margin: auto; color: #F5C01B; background-color: #29a3a3 ; background-size : cover;}
+.langue2 {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size: 36px; margin: auto; color: #F5C01B; background-color: #29a3a3 ; background-size : cover;}
+.espagnol1 {width: 100%; height: 80px; margin: auto; background-color: #29a3a3 ; background-size : cover; text-align: center; float: center}
+.anglais1 {width: 100%; height: 97px; margin: auto; background-color: #29a3a3 ; background-size : cover; text-align: center; float: center}
+
+.comptitre {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size : 36px; background-color: #29a3a3 ; background-size : cover; color: #F5C01B; width: 100%; height: 50px ; margin:auto}
+.comp{text-align: left; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size : 36px; margin:auto; background-color: #29a3a3 ; background-size : cover; color:  #e6e6e6; width: 100%; height: 300px;}
+
+
+.loisirtitre {text-align: center; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size : 36px; background-color: #29a3a3 ; background-size : cover; color: #F5C01B; width: 100%; height: 50px ; margin:auto}
+.loisirs1 {text-align: left; display: flex; flex-direction: column; font-family: "Lato"; font-style: normal; font-weight: bold; font-size : 36px; margin:auto; background-color: #29a3a3 ; background-size : cover; color:  #e6e6e6; width: 100%; height: 300px;}
+
+}
