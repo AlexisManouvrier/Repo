@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+#bloc_page {width: 720px ; margin : auto}
+
+.light {
+    background-color: #29a3a3;
+    }
+.dark {
+    background-color: #000;
+}
+
+/* Desktop version */
+
+@media all and (min-device-width: 501px){
+    .esth {
+        font-family: "Lato";
+        font-style: normal; 
+        font-weight: bold; 
+        font-size: 36px; 
+        text-shadow: #000 0 0 .2em;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: #29a3a3;
+         }
+    .header {
+        background-color: #29a3a3;
+        width: 100%;
+        height: 100px;
+    }
+    .coucou {
+        text-align: center;
+        font-size: 48px;
+        color: #FFFFFF;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .darkmodebut {
+        float: right; 
+        text-align: center;
+        flex-wrap : wrap;
+        color: #FFFFFF;
+        width: 100px;
+        height: 100px;
+        margin-right: 50px;
+        background-color: #29a3a3;
+        background-image: url("lune-svg.svg");
+        background-repeat: no-repeat;
+    }
+    .nom {
+        text-align: center
+        }
+    .moi {
+        width : 600px;
+        height : 600px;
+        float : center;
+        margin: auto;
+        }
+    .nomi {
+        width: 64px;
+        height: 64px;
+        vertical-align:50px;
+        margin:auto;
+        }
+    .maili {
+        width: 64px;
+        height: 64px;
+        vertical-align: 60px;
+        margin:auto;
+        }
+    .telephonei {
+        width: 64px;
+        height: 64px;
+        vertical-align : 70px;
+        margin:auto;
+        }
+    .adressei {
+        width: 64px;
+        height: 64px;
+        vertical-align : 80px;
+        margin:auto;
+        }
+    .datedenaissancei {
+        width: 64px;
+        height: 64px;
+        vertical-align : 90px;
+        margin:auto;
+        }
+    .entete {
+        background-image: url("fond.jpg") ;
+        background-size : cover;
+        display: flex;
+        flex-direction : column;
+        text-align: center;
+        margin: auto;
+        }
+    .formation1 {
+        background-image: url("diplomesfond.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        flex-wrap : wrap;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 1000px;
+        }
+    .formation2 {
+        background-image: url("diplomesfond2.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        flex-wrap : wrap;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 1000px;
+        }
+    .diplome1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap : wrap;
+        width: 64px;
+        margin: auto;
+        padding-bottom: 150px;
+        }
+    .diplome2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap : wrap;
+        width: 64px;
+        vertical-align: 50px;
+        margin: auto;
+        padding-bottom: 150px
+        }
+    
+    .experiences1, .experiences2, .experiences3, .experiences4, .experiences5, .experiences6 {
+        width: 100%; 
+        height: 550px; 
+        margin: auto; 
+        display: flex; 
+        flex-direction: column; 
+        text-align: center; 
+        background-size: cover; 
+        color:  #e6e6e6;
+        }
+    .date1, .date2, .date3, .date4, .date5, .date6 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        margin: auto;
+        color: #F5C01B;
+        }
+    .titre1, .titre2, .titre3, .titre4, .titre5, .titre6 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-size : cover;
+        margin: auto;
+        color: #F5C01B;
+        }
+    .entreprise1, .entreprise2, .entreprise3, .entreprise4,.entreprise5,.entreprise6 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-size : cover;
+        margin: auto;
+        color: #F5C01B;
+        }
+    .langue1, .langue2 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        color: #F5C01B;
+        background-size : cover;
+        }
+    .espagnol1, .anglais1 {
+        width: 100%;
+        height: 80px;
+        margin: auto;
+        background-size : cover;
+        text-align: center;
+        float: center;
+        } 
+    .comptitre {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-size : cover;
+        color: #F5C01B;
+        width: 100%;
+        height: 50px;
+        margin:auto;
+        }
+    .comp{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin:auto;
+        background-size : cover;
+        color:  #e6e6e6;
+        width: 100%;
+        height: 300px;
+        }
+    .loisirtitre {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-size : cover;
+        color: #F5C01B; 
+        width: 100%;
+        height: 50px;
+        margin:auto;
+        }
+    .loisirs1 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin:auto;
+        background-size : cover;
+        color:  #e6e6e6;
+        width: 100%;
+        height: 300px;
+        }
+    
+    }
+
+/*responsive mobile*/
+
+@media all and (max-device-width: 500px){
+
+    .esth {    
+        font-family: "Lato";
+        font-style: normal; 
+        font-weight: bold; 
+        font-size: 36px; 
+        text-shadow: #000 0 0 .2em;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: #29a3a3;
+        }
+
+    .header {
+        background-color: #29a3a3;
+        width: 100%;
+        height: 100px;
+        }
+    .coucou {
+        text-align: center;
+        font-size: 48px;
+        color: #FFFFFF;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        }
+    .darkmode {
+        float: right; 
+        text-align: center;
+        flex-wrap : wrap;
+        color: #FFFFFF;
+        width: 100px;
+        height: 100px;
+        margin-right: 50px;
+        background-color: #29a3a3;
+        background-image: url("lune-svg.svg");
+        background-repeat: no-repeat;
+        }
+    .nom {
+        text-align: center
+        }
+    .moi {
+        width : 600px;
+        height : 600px;
+        float : center;
+        margin: auto;
+        }
+    .nomi {
+        width: 64px;
+        height: 64px;
+        vertical-align:50px;
+        margin:auto;
+        }
+    .maili {
+        width: 64px;
+        height: 64px;
+        vertical-align: 60px;
+        margin:auto;
+        }
+    .telephonei {
+        width: 64px;
+        height: 64px;
+        vertical-align : 70px;
+        margin:auto;
+        }
+    .adressei {
+        width: 64px;
+        height: 64px;
+        vertical-align : 80px;
+        margin:auto;
+        }
+    .datedenaissancei {
+        width: 64px;
+        height: 64px;
+        vertical-align : 90px;
+        margin:auto;
+        }
+    .entete {
+        background-image: url("fond.jpg") ;
+        background-size : cover;
+        display: flex;
+        flex-direction : column;
+        text-align: center;
+        margin: auto;
+        }
+    .formation1 {
+        background-image: url("diplomesfond.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 800px;
+        }
+    .formation2 {
+        background-image: url("diplomesfond2.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 800px;
+        }
+    .diplome1 {
+        width: 64px;
+        vertical-align: 50px;
+        float: left;
+        margin: auto;
+        }
+    .diplome2 {
+        width: 64px;
+        vertical-align: 50px;
+        float: right;
+        margin: auto;
+        }
+    /* Gros bloc des expériences, à ne pas toucher */ 
+    
+    .experiences1, .experiences2, .experiences3, .experiences4, .experiences5, .experiences6 {
+        width: 100%; 
+        height: 550px; 
+        margin: auto; 
+        display: flex; 
+        flex-direction: column; 
+        text-align: center; 
+        background-color: #29a3a3 ; 
+        background-size: cover; 
+        color:  #e6e6e6;
+        }
+    .date1, .date2, .date3, .date4, .date5, .date6 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #29a3a3 ;
+        background-size: cover;
+        margin: auto;
+        color: #F5C01B;
+        }
+    .titre1, .titre2, .titre3, .titre4, .titre5, .titre6 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #29a3a3 ;
+        background-size : cover;
+        margin: auto;
+        color: #F5C01B;
+        }
+    .entreprise1, .entreprise2, .entreprise3, .entreprise4,.entreprise5,.entreprise6 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #29a3a3 ;
+        background-size : cover;
+        margin: auto;
+        color: #F5C01B;
+        }
+    .langue1, .langue2 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        color: #F5C01B;
+        background-color: #29a3a3;
+        background-size : cover;
+        }
+    .espagnol1, .anglais1 {
+        width: 100%;
+        height: 80px;
+        margin: auto;
+        background-color: #29a3a3;
+        background-size : cover;
+        text-align: center;
+        float: center;
+        } 
+    .comptitre {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #29a3a3 ;
+        background-size : cover;
+        color: #F5C01B;
+        width: 100%;
+        height: 50px;
+        margin:auto;
+        }
+    .comp{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin:auto;
+        background-color: #29a3a3;
+        background-size : cover;
+        color:  #e6e6e6;
+        width: 100%;
+        height: 300px;
+        }
+    .loisirtitre {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #29a3a3;
+        background-size : cover;
+        color: #F5C01B; width: 100%;
+        height: 50px;
+        margin:auto;
+        }
+    .loisirs1 {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin:auto;
+        background-color: #29a3a3;
+        background-size : cover;
+        color:  #e6e6e6;
+        width: 100%;
+        height: 300px;
+        }
+}

@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+	<title>lune-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M91.67 50C91.67 72.58 72.59 91.67 50 91.67C27.41 91.67 8.33 72.58 8.33 50C8.33 27.42 27.41 8.33 50 8.33C72.59 8.33 91.67 27.42 91.67 50ZM79.17 50C79.17 34.04 65.95 20.83 50 20.83L50 79.17C65.95 79.17 79.17 65.95 79.17 50Z" />
+</svg>
