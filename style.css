@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 #bloc_page {width: 720px ; margin : auto}
 
-.light {
+/* Background and dark mode color attribute */
+
+:root {
     background-color: #29a3a3;
     }
-.dark {
+.dark-theme {
     background-color: #000;
-}
+    }
 
 /* Desktop version */
 
@@ -19,10 +21,8 @@
         text-shadow: #000 0 0 .2em;
         padding-left: 40px;
         padding-right: 40px;
-        background-color: #29a3a3;
-         }
+    }
     .header {
-        background-color: #29a3a3;
         width: 100%;
         height: 100px;
     }
@@ -43,10 +43,12 @@
         width: 100px;
         height: 100px;
         margin-right: 50px;
-        background-color: #29a3a3;
         background-image: url("lune-svg.svg");
         background-repeat: no-repeat;
     }
+    h2, h3 {
+        font-size: 54px;
+        }
     .nom {
         text-align: center
         }
@@ -133,7 +135,9 @@
         margin: auto;
         padding-bottom: 150px
         }
-    
+
+/* End of background images, now only background colors sensitive to dark mode toggle */
+
     .experiences1, .experiences2, .experiences3, .experiences4, .experiences5, .experiences6 {
         width: 100%; 
         height: 550px; 
@@ -184,6 +188,26 @@
         text-align: center;
         float: center;
         } 
+    .Perstitre {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            background-size : cover;
+            color: #F5C01B;
+            width: 100%;
+            height: 50px;
+            margin:auto;
+        }
+    .Pers {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            margin:auto;
+            background-size : cover;
+            color:  #e6e6e6;
+            width: 100%;
+            height: 300px;
+        }
     .comptitre {
         text-align: center;
         display: flex;
@@ -230,8 +254,7 @@
 /*responsive mobile*/
 
 @media all and (max-device-width: 500px){
-
-    .esth {    
+    .esth {
         font-family: "Lato";
         font-style: normal; 
         font-weight: bold; 
@@ -239,14 +262,11 @@
         text-shadow: #000 0 0 .2em;
         padding-left: 40px;
         padding-right: 40px;
-        background-color: #29a3a3;
-        }
-
+    }
     .header {
-        background-color: #29a3a3;
         width: 100%;
         height: 100px;
-        }
+    }
     .coucou {
         text-align: center;
         font-size: 48px;
@@ -255,8 +275,8 @@
         margin-left: 50px;
         padding-left: 40px;
         padding-right: 40px;
-        }
-    .darkmode {
+    }
+    .darkmodebut {
         float: right; 
         text-align: center;
         flex-wrap : wrap;
@@ -264,9 +284,11 @@
         width: 100px;
         height: 100px;
         margin-right: 50px;
-        background-color: #29a3a3;
         background-image: url("lune-svg.svg");
         background-repeat: no-repeat;
+    }
+    h2, h3 {
+        font-size: 54px;
         }
     .nom {
         text-align: center
@@ -320,35 +342,44 @@
         background-size: cover;
         display: flex;
         flex-direction: column;
+        flex-wrap : wrap;
         text-align: center;
         margin: auto;
         width: 100%;
-        height: 800px;
+        height: 1000px;
         }
     .formation2 {
         background-image: url("diplomesfond2.jpg");
         background-size: cover;
         display: flex;
         flex-direction: column;
+        flex-wrap : wrap;
         text-align: center;
         margin: auto;
         width: 100%;
-        height: 800px;
+        height: 1000px;
         }
     .diplome1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap : wrap;
         width: 64px;
-        vertical-align: 50px;
-        float: left;
         margin: auto;
+        padding-bottom: 150px;
         }
     .diplome2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap : wrap;
         width: 64px;
         vertical-align: 50px;
-        float: right;
         margin: auto;
+        padding-bottom: 150px
         }
-    /* Gros bloc des expériences, à ne pas toucher */ 
+
     
+/* End of background images, now only background colors sensitive to dark mode toggle */
+
     .experiences1, .experiences2, .experiences3, .experiences4, .experiences5, .experiences6 {
         width: 100%; 
         height: 550px; 
@@ -356,7 +387,6 @@
         display: flex; 
         flex-direction: column; 
         text-align: center; 
-        background-color: #29a3a3 ; 
         background-size: cover; 
         color:  #e6e6e6;
         }
@@ -364,7 +394,6 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        background-color: #29a3a3 ;
         background-size: cover;
         margin: auto;
         color: #F5C01B;
@@ -373,7 +402,6 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        background-color: #29a3a3 ;
         background-size : cover;
         margin: auto;
         color: #F5C01B;
@@ -382,7 +410,6 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        background-color: #29a3a3 ;
         background-size : cover;
         margin: auto;
         color: #F5C01B;
@@ -393,23 +420,40 @@
         flex-direction: column;
         margin: auto;
         color: #F5C01B;
-        background-color: #29a3a3;
         background-size : cover;
         }
     .espagnol1, .anglais1 {
         width: 100%;
         height: 80px;
         margin: auto;
-        background-color: #29a3a3;
         background-size : cover;
         text-align: center;
         float: center;
         } 
+    .Perstitre {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            background-size : cover;
+            color: #F5C01B;
+            width: 100%;
+            height: 50px;
+            margin:auto;
+        }
+    .Pers {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            margin:auto;
+            background-size : cover;
+            color:  #e6e6e6;
+            width: 100%;
+            height: 300px;
+        }
     .comptitre {
         text-align: center;
         display: flex;
         flex-direction: column;
-        background-color: #29a3a3 ;
         background-size : cover;
         color: #F5C01B;
         width: 100%;
@@ -419,9 +463,8 @@
     .comp{
         text-align: center;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin:auto;
-        background-color: #29a3a3;
         background-size : cover;
         color:  #e6e6e6;
         width: 100%;
@@ -431,21 +474,21 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        background-color: #29a3a3;
         background-size : cover;
-        color: #F5C01B; width: 100%;
+        color: #F5C01B; 
+        width: 100%;
         height: 50px;
         margin:auto;
         }
     .loisirs1 {
         text-align: center;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin:auto;
-        background-color: #29a3a3;
         background-size : cover;
         color:  #e6e6e6;
         width: 100%;
         height: 300px;
         }
-}
+    
+    }
